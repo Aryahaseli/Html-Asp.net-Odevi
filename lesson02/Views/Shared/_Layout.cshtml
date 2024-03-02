@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - lesson02</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="topbar">
+                <div class="logo">
+                    <img src="/images/logo.png" alt="Travel Blog">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row hero">
+            <div class="slider">
+                <img src="/images/slide3.jpg" alt="Sample alt text">
+            </div>
+            <div class="sidebar">
+                <h3>Best<br>Travel<br>Blog</h3>
+                <p>Discover world...</p>
+            </div>
+        </div>
+        <div class="flex-row">
+            <a href="#" class="box orange-box">
+                <div class="box-head">
+                    <div class="info">
+                        <div class="icon-holder">
+                            <i class="fa fa-calendar-check"></i>
+                        </div>
+                        <div class="head-text">
+                            <h3>18 December 2023</h3>
+                            <p>Start from İstanbul</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-footer">
+                    <h1>South <br> Africa Tour</h1>
+                    <i class="fa fa-arrow-right-long"></i>
+                </div>
+            </a>
+            <a href="#" class="box gray-box">
+                <div class="box-head">
+                    <div class="info">
+                        <div class="icon-holder">
+                            <img src="/images/avatar2.jpg" alt="">
+                        </div>
+                        <div class="head-text dark-text">
+                            <h3>18 December 2023</h3>
+                            <p>Start from İstanbul</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-content">
+                    <h3>Patrick Steven</h3>
+                </div>
+                <div class="box-footer">
+                    <h1>Online <br> Workshop</h1>
+                    <i class="fa fa-arrow-right-long"></i>
+                </div>
+            </a>
+            <a href="#" class="box lime-box">
+                <div class="box-head">
+
+                    <span class="label">Blog Post</span>
+
+                </div>
+                <div class="box-content">
+                    <div class="elips orange-box">
+                        <i class="fa fa-bag-shopping"></i>
+                    </div>
+                    <div class="elips gray-box">
+                        <i class="fa fa-plane-arrival"></i>
+                    </div>
+                    <div class="elips orange-box">
+                        <i class="fa fa-hotel"></i>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <h1>Online <br> Workshop</h1>
+                    <i class="fa fa-arrow-right-long"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
+    @RenderBody()
+    @await RenderSectionAsync("Scripts", required: false)

@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\lesson02.bundle.scp.css",
+      "PackagePath": "staticwebassets\\lesson02.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\css\\reset.css",
+      "PackagePath": "staticwebassets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\images\\avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\images\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\images\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\images\\logo-image.svg",
+      "PackagePath": "staticwebassets\\images\\logo-image.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\images\\logo-text.svg",
+      "PackagePath": "staticwebassets\\images\\logo-text.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\images\\slide1.jpg",
+      "PackagePath": "staticwebassets\\images\\slide1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\images\\slide2.jpg",
+      "PackagePath": "staticwebassets\\images\\slide2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sistem\\Desktop\\lesson02\\wwwroot\\images\\slide3.jpg",
+      "PackagePath": "staticwebassets\\images\\slide3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.lesson02.props",
+      "PackagePath": "build\\lesson02.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.lesson02.props",
+      "PackagePath": "buildMultiTargeting\\lesson02.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.lesson02.props",
+      "PackagePath": "buildTransitive\\lesson02.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.lesson02.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
